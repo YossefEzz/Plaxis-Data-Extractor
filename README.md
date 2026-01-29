@@ -18,10 +18,6 @@ The data is organized by model and analysis stage, making it easy to compare res
 - **PLAXIS 2D 2023 or 2024** - Must be installed with PLAXIS Scripting enabled
 - **Git** (optional, for version control)
 
-### System Requirements
-- Windows OS (the script uses Windows-specific paths)
-- Minimum 4GB RAM
-- Adequate disk space for data files
 
 ## Installation
 
@@ -220,11 +216,3 @@ For issues related to:
 - **Script errors** - Check troubleshooting section above
 - **PLAXIS integration** - Ensure PLAXIS Scripting is installed
 - **Python environment** - Run `pip --version` and `python --version` to verify installation
-
-## Author
-
-Created for automated PLAXIS analysis data extraction.
-
----
-
-**Last Updated:** January 2026
