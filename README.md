@@ -11,12 +11,6 @@ This tool processes PLAXIS 2D (.p2dx) model files and extracts soil analysis dat
 
 The data is organized by model and analysis stage, making it easy to compare results across phases.
 
-## Prerequisites
-
-### Required Software
-- **Python 3.7+** - Download from https://www.python.org/downloads/
-- **PLAXIS 2D 2023 or 2024** - Must be installed with PLAXIS Scripting enabled
-- **Git** (optional, for version control)
 
 
 ## Installation
@@ -25,7 +19,7 @@ The data is organized by model and analysis stage, making it easy to compare res
 
 ```bash
 # If using Git
-git clone <your-github-repo-url>
+git clone YossefEzz/Plaxis-Data-Extractor
 cd Plaxis\ Data\ Extractor
 
 # Or extract the ZIP file and open the folder
@@ -171,44 +165,9 @@ Plaxis Data Extractor/
 └── soil_cross_section_results.csv   # Output (generated after running)
 ```
 
-## GitHub Workflow
-
-### Initial Upload
-```bash
-git init
-git add .
-git commit -m "Initial commit: PLAXIS data extractor tool"
-git remote add origin https://github.com/yourusername/Plaxis-Data-Extractor.git
-git branch -M main
-git push -u origin main
-```
-
-### Updating
-```bash
-git add .
-git commit -m "Description of changes"
-git push
-```
-
-### Others Cloning
-```bash
-git clone https://github.com/yourusername/Plaxis-Data-Extractor.git
-cd Plaxis-Data-Extractor
-pip install -r requirements.txt
-python wall.py
-```
-
 ## License
 
 Specify your license (MIT, GPL, etc.) or note if proprietary.
-
-## Contributing
-
-To add features or report issues:
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
 
 ## Support
 
